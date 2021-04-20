@@ -28,9 +28,13 @@ header {
   header .logo {
     width: 100px;
     height: 100px;
-    background-color: navy;
     margin: 10px;
     place-self: center; }
+    header .logo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center top; }
   header nav {
     place-self: center;
     width: 100%;
@@ -89,7 +93,8 @@ main {
     grid-template-columns: 1fr 1fr;
     width: calc(100% - 20px);
     margin: 10px;
-    grid-gap: 20px;
+    row-gap: 20px;
+    column-gap: 50px;
     color: black;
     text-decoration: none; }
     main article h2 {
@@ -118,10 +123,7 @@ main {
         text-align: center;
         margin-top: 0; }
       main article div ul, main article div p {
-        font-size: 1.25rem;
-        max-width: 400px;
-        display: block;
-        margin: 0 auto; }
+        font-size: 1.25rem; }
 
 .home {
   display: grid;
@@ -163,9 +165,7 @@ iframe {
       height: 200px; } }
 
 .quote {
-  padding: 50px 150px;
-  font-size: 2rem;
-  margin: 0; }
+  font-size: 2rem; }
   @media screen and (max-width: 39.9375em) {
     .quote {
       padding: 0; } }
@@ -178,6 +178,8 @@ iframe {
 .double {
   grid-column: 1/-1; }
   .double p {
-    max-width: 80%; }
+    max-width: 80%;
+    margin: 0 auto;
+    display: block; }
 
 /*# sourceMappingURL=app.css.map */
