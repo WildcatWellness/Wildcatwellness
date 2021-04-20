@@ -5,9 +5,9 @@
 
 
 body{
-    // max-width: 72rem;
-    // display: block;
-    // margin: 0 auto;
+    max-width: 72rem;
+    display: block;
+    margin: 0 auto;
 }
 
 header{
@@ -145,7 +145,7 @@ main{
 .home{
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     place-items: center;
     @media screen and (max-width: 39.9375em) {
         grid-template-columns: repeat(1, 1fr);
@@ -153,6 +153,7 @@ main{
         margin-right: 20px;
         width: calc(100% - 40px);
     }
+    
     img{
         width: 100%;
         filter: grayscale(1);
