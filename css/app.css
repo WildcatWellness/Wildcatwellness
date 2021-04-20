@@ -9,8 +9,8 @@ h2, h3 {
   font-style: normal; }
 
 header nav a {
-  font-family: neue-haas-grotesk-display,sans-serif;
-  font-weight: 900;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 800;
   font-style: normal; }
   header nav a:active {
     color: #325484; }
@@ -194,5 +194,8 @@ iframe {
     max-width: 80%;
     margin: 0 auto;
     display: block; }
+
+.home-title {
+  grid-column: 1/-1; }
 
 /*# sourceMappingURL=app.css.map */
