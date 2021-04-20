@@ -1,4 +1,4 @@
-p {
+p, blockquote {
   font-family: garamond-premier-pro-display,serif;
   font-weight: 400;
   font-style: normal; }
@@ -82,44 +82,46 @@ header {
         position: relative;
         z-index: 10; } }
 
-main article {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  width: calc(100% - 20px);
-  margin: 10px;
-  grid-gap: 20px;
-  color: black;
-  text-decoration: none; }
-  main article h2 {
-    grid-column: 1/-1;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase; }
-  main article p {
-    text-align: justify;
+main {
+  margin-bottom: 50px; }
+  main article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: calc(100% - 20px);
+    margin: 10px;
+    grid-gap: 20px;
+    color: black;
     text-decoration: none; }
-  main article .titleStatement {
-    grid-column: 1/-1;
-    font-size: 1.5rem;
-    text-align: center; }
-  @media screen and (max-width: 39.9375em) {
-    main article {
-      grid-template-columns: 1fr; } }
-  main article div {
-    justify-self: center;
-    width: 100%;
-    padding-bottom: 20px;
-    border-bottom: 2px blue solid;
-    margin-bottom: 20px; }
-    main article div h3 {
-      font-size: 2rem;
+    main article h2 {
+      grid-column: 1/-1;
       text-align: center;
-      margin-top: 0; }
-    main article div ul, main article div p {
-      font-size: 1.25rem;
-      max-width: 400px;
-      display: block;
-      margin: 0 auto; }
+      text-decoration: none;
+      text-transform: uppercase; }
+    main article p {
+      text-align: justify;
+      text-decoration: none; }
+    main article .titleStatement {
+      grid-column: 1/-1;
+      font-size: 1.5rem;
+      text-align: center; }
+    @media screen and (max-width: 39.9375em) {
+      main article {
+        grid-template-columns: 1fr; } }
+    main article div {
+      justify-self: center;
+      width: 100%;
+      padding-bottom: 20px;
+      border-bottom: 2px blue solid;
+      margin-bottom: 20px; }
+      main article div h3 {
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 0; }
+      main article div ul, main article div p {
+        font-size: 1.25rem;
+        max-width: 400px;
+        display: block;
+        margin: 0 auto; }
 
 .home {
   display: grid;
