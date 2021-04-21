@@ -167,14 +167,14 @@ main{
     
     img{
         width: 100%;
-        filter: grayscale(1);
+        // filter: grayscale(1);
         transition: all .2s;
         
 
-        &:hover{
-            filter: grayscale(0);
+        // &:hover{
+        //     filter: grayscale(0);
 
-        }
+        // }
         @media screen and (max-width: 39.9375em) {
             filter: grayscale(0);
         }
