@@ -193,6 +193,7 @@ iframe {
     display: block; }
 
 .home-title {
-  grid-column: 1/-1; }
+  grid-column: 1/-1;
+  margin: 50px 100px; }
 
 /*# sourceMappingURL=app.css.map */

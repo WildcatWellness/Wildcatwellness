@@ -6,17 +6,17 @@ const imgs = document.querySelectorAll('.home a');
 
 
 
-imgs.forEach(function(l, n, i){
-    console.log(l);
-    console.log(i);
-    l.addEventListener('mouseover', function(e){
-        
-    });
-    l.addEventListener('mouseout', function(e){
-        console.log('Hover out ');
-    });
+// imgs.forEach(function(l, n, i){
+//     console.log(l);
+//     console.log(i);
+//     l.addEventListener('mouseover', function(e){
+//         imgs.forEach()
+//     });
+//     l.addEventListener('mouseout', function(e){
+//         console.log('Hover out ');
+//     });
 
-});
+// });
 
 
 
