@@ -110,6 +110,20 @@ main{
         column-gap: 50px;
         color: black;
         text-decoration: none;
+        img{
+            grid-column: 1/-1;
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            padding: 0 150px;
+            @media screen and (max-width: 39.9375em) {
+                padding: 0;
+            }
+            
+
+        }
+
+
         h2{
             grid-column: 1/-1;
             text-align: center;
