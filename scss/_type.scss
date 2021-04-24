@@ -18,6 +18,19 @@ h2, h3{
 
 }
 
+main{
+    article{
+        h2{
+            font-size: 2rem;
+        }
+        div{
+            h3{
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+
 header{
     nav{
         a{
