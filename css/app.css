@@ -136,6 +136,18 @@ main {
   @media screen and (max-width: 39.9375em) {
     .home {
       grid-template-columns: repeat(1, 1fr); } }
+  .home #connect, .home #connect div {
+    background-color: #4A2384; }
+  .home #do-something, .home #do-something div {
+    background-color: #6280B8; }
+  .home #resources, .home #resources div {
+    background-color: #004B1E; }
+  .home #refuel, .home #refuel div {
+    background-color: #A21027; }
+  .home #present, .home #present div {
+    background-color: #EB7C23; }
+  .home #unplug, .home #unplug div {
+    background-color: #7D862C; }
   .home img {
     width: 100%;
     transition: all .2s; }
@@ -222,24 +234,6 @@ iframe {
 .home-title {
   grid-column: 1/-1;
   margin: 50px 100px; }
-
-#connect, #connect div {
-  background-color: #4A2384; }
-
-#do-something, #do-something div {
-  background-color: #6280B8; }
-
-#resources, #resources div {
-  background-color: #004B1E; }
-
-#refuel, #refuel div {
-  background-color: #A21027; }
-
-#present, #present div {
-  background-color: #EB7C23; }
-
-#unplug, #unplug div {
-  background-color: #7D862C; }
 
 p, blockquote, ul {
   font-family: brandon-grotesque, sans-serif;
